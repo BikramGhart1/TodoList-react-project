@@ -13,7 +13,7 @@ export default function Intro({ onHamMenu }) {
             </div>
             <div className="Main-title">
 
-                <h1>unorganized TO-DO List </h1>
+                <h1>organized TO-DO List </h1>
             </div>
         </div>
 
