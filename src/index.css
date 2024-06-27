@@ -1,0 +1,45 @@
+body {
+    background-color: #2C2C2C;
+    color: rgb(180, 180, 180);
+
+}
+
+/* Global scrollbar styles for Webkit browsers (Chrome, Safari) */
+html,
+body {
+    /* Ensure the scrollbar is applied to the whole page */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    background: #424141;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #313030;
+    border-radius: 6px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #292929;
+}
+
+/* Global scrollbar styles for Firefox */
+html,
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #5f5d5d #333030;
+}
+
+/* Global scrollbar styles for IE and Edge */
+html,
+body {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}

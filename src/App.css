@@ -1,0 +1,11 @@
+.empty-render {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+}

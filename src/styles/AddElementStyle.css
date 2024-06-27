@@ -1,0 +1,77 @@
+.add-task button {
+    background-color: #39FF14;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 80px;
+    border-radius: 80%;
+    border: none;
+    margin-top: 4%;
+    position: fixed;
+    right: 15%;
+    bottom: 8%;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 2500;
+}
+
+
+
+
+.add-content .form-new {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* padding: 2%; */
+    margin: 2%;
+    /* position: fixed; */
+    /* right: 5%;
+    bottom: 5%s; */
+
+}
+
+.form-new input {
+    margin: 8%;
+    padding: 5%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.form-new .due-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.due-date input {
+    margin-top: 3%;
+}
+
+.form-new textarea {
+    padding-left: 2%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.add-content button {
+    background-color: #39FF14;
+    width: 50%;
+    border: none;
+    padding: 2%;
+    margin-left: 22%;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+@media(max-width:760px) {
+    .add-content .form-new {
+        width: 80vw;
+    }
+
+    .add-task button {
+        right: 22%;
+    }
+}
