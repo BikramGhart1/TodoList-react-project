@@ -17,13 +17,12 @@ function App() {
 
   // Save tasks to local storage whenever tasks state changes
   useEffect(() => {
-    if (tasks.length > 0) {
       try {
         localStorage.setItem('tasks', JSON.stringify(tasks));
       } catch (error) {
         console.error('Error saving tasks to local storage:', error);
       }
-    }
+    
 
   }, [tasks]);
   console.log('Ham menu clicked: ', hamStatus);
