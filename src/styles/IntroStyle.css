@@ -59,7 +59,7 @@
     }
 
     .Main-title {
-        font-size: 8px;
+        font-size: smaller;
         width: 100%;
         margin: 0;
         /* margin-left: -3%; */
