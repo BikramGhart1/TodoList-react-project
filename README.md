@@ -11,7 +11,7 @@ live demo: https://todolist-yay.netlify.app/
 6. saves data in local storage
 
 #Things I learnt from this project
-1. proper hanlde of props
+1. proper handling of props
 2. utilizing states
 3. useEffect hook
 4. responsive designs
